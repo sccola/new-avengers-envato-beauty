@@ -47,6 +47,16 @@ line-height: 110px;
 color: #EBBAD8;
 }
 
+.info-section {
+/* background: #E5E5E5; */
+height: 487px;
+}
+
+.info-section .card {
+    border: none;
+    margin-top: 40px;
+}
+
 /* Media Queries for device responsiveness */
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
    
