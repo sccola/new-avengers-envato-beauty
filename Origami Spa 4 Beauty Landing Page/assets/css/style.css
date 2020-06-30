@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat';
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+}
+
+.custom-container {
+    max-width: 1440px;
+  }
+  
+  .container-fluid {
+    padding-bottom: 0 !important;
+  }  
+
+.header {
+    height: 100px;
+    background: #000000;
+}
+
+.custom-text-pink {
+    color:#FF626A;
+}
+
+.hero-section {
+    height: 959px;
+    background: rgba(0, 0, 0, 0.7);
+    display: block;
+    background: no-repeat url("../../assets/images/hero-background.png");
+    background-size: 100% auto cover;
+    padding-left: 15px;
+}
+
+.hero-text {
+width: 715px;
+height: 330px;
+font-style: normal;
+font-weight: 500;
+font-size: 90px;
+line-height: 110px;
+color: #EBBAD8;
+}
+
+/* Media Queries for device responsiveness */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+   
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+   .hero-section .minscreens img{
+       width: 320px;
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+   }
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 640px) and (-webkit-device-pixel-ratio: 3) {
+    
+    .hero-section .minscreens img {
+        width: 320px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* Iphone 5s and smaller devices */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+
+    .hero-section .minscreens img {
+        width: 280px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
